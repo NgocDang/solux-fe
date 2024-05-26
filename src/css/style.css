@@ -1,0 +1,128 @@
+.main-nav {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+}
+
+.main-nav .slider {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+}
+
+.main-nav .logo {
+  position: absolute;
+  width: 233px;
+  height: auto;
+  top: 74px;
+  left: 64px;
+}
+
+.main-nav .viewmore {
+  position: absolute;
+  width: 135px;
+  height: auto;
+  bottom: 218px;
+  left: 208px;
+}
+
+.main-nav .email_buttons {
+  position: absolute;
+  width: 192px;
+  height: auto;
+  bottom: 138px;
+  right: 0px;
+}
+
+.main-nav .dropdown {
+  position: absolute;
+  width: 64px;
+  height: auto;
+  top: 106px;
+  right: 103px;
+}
+
+.main-nav .header-description {
+  position: absolute;
+  font-size: 46px;
+  color: #fff;
+  bottom: 390px;
+  left: 208px;
+}
+
+/* Main */
+.section-hero {
+  position: relative;
+  width: 1920px;
+  height: 1195px;
+  top: 0;
+  left: 0;
+}
+
+.hero-text-box {
+  position: absolute;
+  top: 270px;
+  left: 1022px;
+  tex
+}
+.section-hero .introduction-img {
+  position: absolute;
+  width: 661px;
+  height: 705px;
+  top: 308px;
+  left: 210px;
+}
+
+.certified-photo {
+  padding-top: 50px;
+  width: 498px;
+  height: 66px;
+}
+
+.section-hero .hero-description {
+  padding-top: 30px;
+}
+
+.heading-primary {
+  font-size: 41px;
+  color: #0f0f0f;
+}
+
+.hero-description {
+  font-size: 21px;
+  color: #0f0f0f;
+  line-height: 1.5;
+}
+
+.certified {
+  padding-top: 90px;
+}
+
+.list {
+  height: 333px;
+}
+
+.list-horizontal {
+  float: left;
+  display: flexbox;
+  list-style-type: none;
+  border-style: solid;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.header-list{
+  font-size: 27px;
+}
+
+.header-value{
+  font-size: 50px;
+}
+
+.text-list{
+  font-size: 21px;
+}

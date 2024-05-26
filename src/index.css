@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BoldEx";
+  src: url("../public/fonts/AkzidenzGrotesk-BoldExtended.otf");
+}
+@font-face {
+  font-family: "BoldExIta";
+  src: url("../public/fonts/AkzidenzGrotesk-BoldExtendedItalic.otf");
+}
+@font-face {
+  font-family: "LightEx";
+  src: url("../public/fonts/AkzidenzGrotesk-LightExtended.otf");
+}
+@font-face {
+  font-family: "LightExIta";
+  src: url("../public/fonts/AkzidenzGrotesk-LightExtendedItalic.otf");
+}
+@font-face {
+  font-family: "AG";
+  src: url("../public/fonts/Armin\ Grotesk\ Regular.otf");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

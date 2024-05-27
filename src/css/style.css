@@ -65,7 +65,7 @@
 
 .hero-text-box {
   position: absolute;
-  top: 270px;
+  top: 300px;
   left: 1022px;
   tex
 }
@@ -95,7 +95,7 @@
 .hero-description {
   font-size: 21px;
   color: #0f0f0f;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 .certified {

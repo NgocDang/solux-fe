@@ -18,6 +18,23 @@
   font-family: "LightEx";
 }
 
+.header-list{
+  font-family: "LightEx";
+}
+
+.header-value .text-list{
+  font-family: "AG";  
+}
+
+.middle-banner-header{
+  font-family: "LightEx";  
+}
+
+.middle-banner-desc{
+  font-family: "AG";  
+}
+
+
 @media (min-width: 320px) {
   .content {
     font-size: 10px;
@@ -53,37 +70,84 @@
   }
 
   .introduction_img {
-    width: 150px;
+    width: 135px;
     height: auto;
-    top: 10px;
-    left: 2%;
+    top: 25px;
+    left: 15px;
   }
 
   .heading-introduction 
   {
-    font-size: 10px;
-    top: 10px;
-    left: 48%;
+    font-size: 9px;
+    top: 25px;
+    left: 160px;
   }
 
   .introduction-description {
-    font-size: 6px;
-    top: 40px;
-    left: 48%;
+    font-size: 5.5px;
+    top: 60px;
+    left: 160px;
   }
 
   .certified {
     font-size: 6px;
-    top: 120px;
-    left: 48%;
+    font-weight: bold;
+    top: 135px;
+    left: 160px;
   }
 
   .certified-photo{
     width: 140px;
-    top: 140px;
-    left: 48%;
+    top: 150px;
+    left: 160px;
+  }
+
+  .list-horizontal{
+    border-left: 0.1px solid black;
+    border-right: 0.1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1.15px;
+    float: left;
+    list-style-type: none;
+  }
+
+  .header-list{
+    font-size: 5px;
+  } 
+
+  .header-value{
+    padding-top: 10px;
+    font-size: 7px;
+  }
+
+  .text-list{
+    padding-top: 10px;
+    font-size: 5px;
+  }
+
+  .middle-banner-header{
+    text-align: center;
+    top: 50%;
+    left: 30%;
+    font-size: 9px;
+  }
+
+  .middle-banner-ic
+  {
+    scale: 25%;
+    top: 35%;
+    left: 50%;
+  }
+  
+  .middle-banner-desc{
+    text-align: center;
+    top: 75%;
+    left: 16%;
+    font-size: 7px;
   }
 }
+
 @media (min-width: 768px) {
   .content {
     font-size: 25px;
@@ -120,35 +184,81 @@
   }
 
   .introduction_img {
-    width: 270px;
+    width: 300px;
     height: auto;
-    top: 10px;
+    top: 80px;
     left: 30px;
   }
 
   .heading-introduction 
   {
     font-size: 19px;
-    top: 10px;
-    left: 330px;
+    top: 80px;
+    left: 370px;
   }
 
   .introduction-description {
-    font-size: 13px;
-    top: 70px;
-    left: 330px;
+    font-size: 12px;
+    top: 160px;
+    left: 370px;
   }
 
   .certified {
     font-size: 11px;
-    top: 244px;
-    left: 330px;
+    font-weight: bold;
+    top: 340px;
+    left: 370px;
   }
 
   .certified-photo{
     width: 250px;
-    top: 260px;
-    left: 330px;
+    top: 370px;
+    left: 370px;
+  }
+
+  .list-horizontal{
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    float: left;
+    list-style-type: none;
+  }
+
+  .header-list{
+    font-size: 12px;
+  } 
+
+  .header-value{
+    padding-top: 20px;
+    font-size: 19px;
+  }
+
+  .text-list{
+    padding-top: 20px;
+    font-size: 11px;
+  }
+
+  .middle-banner-header{
+    text-align: center;
+    top: 50%;
+    left: 33%;
+    font-size: 19px;
+  }
+
+  .middle-banner-ic
+  {
+    scale: 50%;
+    top: 53%;
+    left: 50%;
+  }
+  
+  .middle-banner-desc{
+    text-align: center;
+    top: 75%;
+    left: 21%;
+    font-size: 15px;
   }
 }
 
@@ -190,33 +300,79 @@
   .introduction_img {
     width: 350px;
     height: auto;
-    top: 50px;
+    top: 120px;
     left: 80px;
   }
 
   .heading-introduction 
   {
     font-size: 20px;
-    top: 50px;
+    top: 120px;
     left: 500px;
   }
 
   .introduction-description {
     font-size: 15px;
-    top: 120px;
+    top: 200px;
     left: 500px;
   }
 
   .certified {
     font-size: 15px;
-    top: 330px;
+    font-weight: bold;
+    top: 420px;
     left: 500px;
   }
 
   .certified-photo{
     width: 300px;
-    top: 370px;
+    top: 450px;
     left: 500px;
+  } 
+
+  .list-horizontal{
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 11.6px;
+    float: left;
+    list-style-type: none;
+  }
+
+  .header-list{
+    font-size: 17px;
+  } 
+
+  .header-value{
+    padding-top: 20px;
+    font-size: 25px;
+  }
+
+  .text-list{
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  .middle-banner-header{
+    text-align: center;
+    top: 50%;
+    left: 33%;
+    font-size: 25px;
+  }
+
+  .middle-banner-ic
+  {
+    scale: 50%;
+    top: 57%;
+    left: 50%;
+  }
+  
+  .middle-banner-desc{
+    text-align: center;
+    top: 75%;
+    left: 21%;
+    font-size: 20px;
   }
 }
 
@@ -266,7 +422,7 @@
   }
 
   .introduction-description {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 40px;
     top: 400px;
     left: 1000px;
@@ -274,13 +430,58 @@
 
   .certified {
     font-size: 24px;
+    font-weight: bold;
     top: 800px;
     left: 1000px;
   }
 
   .certified-photo{
     width: 500px;
-    top: 850px;
+    top: 870px;
     left: 1000px;
+  }
+
+  .list-horizontal{
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 63.5px;
+    float: left;
+    list-style-type: none;
+  }
+
+  .header-list{
+    font-size: 25px;
+  }
+
+  .header-value{
+    padding-top: 30px;
+    font-size: 40px;
+  }
+
+  .text-list{
+    padding-top: 40px;
+    font-size: 21px;
+  }
+
+  .middle-banner-header{
+    text-align: center;
+    top: 55%;
+    left: 35%;
+    font-size: 41px;
+  }
+
+  .middle-banner-ic
+  {
+    top: 65%;
+    left: 50%;
+  }
+  
+  .middle-banner-desc{
+    text-align: center;
+    top: 80%;
+    left: 30%;
+    font-size: 26px;
   }
 }

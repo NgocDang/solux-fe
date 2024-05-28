@@ -39,12 +39,17 @@ export const LandingPage = () => {
 
       <div className="introduction relative">
         <img
+          className="introduction-background"
+          src={"/images/Introduction-background.jpg"}
+          alt=""
+        />
+        <img
           className="introduction_img absolute"
           src={"/images/photo-intro.png"}
           alt="Introduction Solux lighting product"
         />
         <div class="heading-introduction absolute">
-              We manufacture light solution<br />respecful of our environment
+              We manufacture light solutions<br />respecful of our environment
         </div>
         <div class="introduction-description absolute">
           For 10 years, and over 500 000 installations in 73 countries,<br />
@@ -63,6 +68,52 @@ export const LandingPage = () => {
         class="certified-photo absolute"
         src={"/images/iso-icons.svg"}
         alt="All certificated ISO CE TUV IP65 EMC ROHS"/>
+
+        <ul class="list flexbox">
+          <li class="list-horizontal">
+            <h4 class="header-list">Solux<br/>company facts</h4>
+            <h3 class="header-value">10+</h3>
+            <p class="text-list">10 years in the Solar<br/>Lighting as a pure player</p>
+          </li>
+          <li class="list-horizontal">
+            <h4 class="header-list">Installations<br/><br/></h4>
+            <h3 class="header-value">500K +</h3>
+            <p class="text-list">Installation realised in +73<br/>countries</p>
+          </li>
+          <li class="list-horizontal">
+            <h4 class="header-list">Solux main<br/>Manufacture</h4>
+            <h3 class="header-value">9000m2</h3>
+            <p class="text-list">600 m2 dedicated Testing<br/>Lab</p>
+          </li>
+          <li class="list-horizontal">
+            <h4 class="header-list">Pattern designs<br/>& co</h4>
+            <h3 class="header-value">32</h3>
+            <p class="text-list">We protect & develop our<br/>technology constantly</p>
+          </li>
+          <li class="list-horizontal">
+            <h4 class="header-list">Dedicated<br/>people</h4>
+            <h3 class="header-value">8+</h3>
+            <p class="text-list">Engineers experts in light & solar<br/>lighting</p>
+          </li>
+        </ul>
+      </div>
+
+      <div className="middle-banner relative">
+        <img
+          className="middle-banner-bg"
+          src={"/images/middle-banner-bg.jpg"}
+          alt=""/>
+        <div class="middle-banner-header absolute text-white">
+          A solution for every projects
+        </div>
+        <img
+          className="middle-banner-ic absolute"
+          src={"/images/middle-banner-icon.svg"}
+          alt=""/>
+        <div class="middle-banner-desc absolute text-white">
+          Thanks to it's wide range of products offering all kind of solar lighting<br/>
+          possibilities for your project
+        </div>
       </div>
     </>
   );

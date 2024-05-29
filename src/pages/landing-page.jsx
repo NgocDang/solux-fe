@@ -7,7 +7,7 @@ export const LandingPage = () => {
         <img
           className="w-full"
           src={"/images/Home_main_visual_1.jpg"}
-          alt="Solux landing photo"
+          alt="Solux landing"
         />
         <img
           className="solux-logo absolute"
@@ -23,98 +23,107 @@ export const LandingPage = () => {
         </button>
         <button className="drop-down-btn absolute">
           <img
-          className="drop-down-icon"
-          src={"/images/menu-dropdown.svg"}
-          alt="menu dropdown image"
+            className="drop-down-icon"
+            src={"/images/menu-dropdown.svg"}
+            alt="menu dropdown"
           />
         </button>
         <button className="email-btn absolute">
           <img
-          className="email-icon"
-          src={"/images/email-icon.svg"}
-          alt="email icon"
+            className="email-icon"
+            src={"/images/email-icon.svg"}
+            alt="email icon"
           />
         </button>
       </div>
 
-      <div className="introduction relative">
+      <div className="xs:flex xs:flex-col xs:p-10 xs:pb-12 sm:p-20 sm:pb-24 xs:gap-2 md:px-32 md:pt-20 md:pb-32 md:gap-8 lg:flex-row lg:gap-24 2xl:gap-32">
         <img
-          className="introduction-background"
-          src={"/images/Introduction-background.jpg"}
-          alt=""
-        />
-        <img
-          className="introduction_img absolute"
+          className="xs:grow xs:w-full md:grow-0 lg:w-1/2 xl:shrink"
           src={"/images/photo-intro.png"}
           alt="Introduction Solux lighting product"
         />
-        <div className="heading-introduction absolute">
-              We manufacture light solutions<br />respecful of our environment
-        </div>
-        <div className="introduction-description absolute">
-          For 10 years, and over 500 000 installations in 73 countries,<br />
-          Solux sino-european manjor manufacturer, has been designing<br />
-          and developing premium solar-powered lighting made to<br />
-          illuminate all year in every condition, offering real<br />
-          ecological alternative to the lighting industry.<br />
-          <br />
-          Solux has worked effortless to create what we define has the<br />
-          ideal lighting solution to preserve our planet.<br />
-        </div>
-        <div className="certified absolute">
+        <div className="grow flex justify-between flex-col xs:gap-5 md:gap-10">
+          <span className="heading-introduction xs:text-xl lg:text-4xl">
+            We manufacture light solutions respecful of our environment
+          </span>
+          <div className="flex flex-col gap-4 xs:text-xs lg:text-xl lg:w-4/5">
+            <span>
+              For 10 years, and over 500 000 installations in 73 countries,
+              Solux sino-european manjor manufacturer, has been designing and
+              developing premium solar-powered lighting made to illuminate all
+              year in every condition, offering real ecological alternative to
+              the lighting industry.
+            </span>
+            <span>
+              Solux has worked effortless to create what we define has the ideal
+              lighting solution to preserve our planet.
+            </span>
+          </div>
+          <div className="flex flex-col xs:gap-2 md:gap-3 lg:gap-5">
+            <span className="xs:text-xs md:text-xl lg:text-2xl font-bold">
               Certified by
+            </span>
+            <img
+              className="md:w-2/3 lg:w-full xl:w-2/3 2xl:w-1/2"
+              src={"/images/iso-icons.svg"}
+              alt="All certificated ISO CE TUV IP65 EMC ROHS"
+            />
+          </div>
         </div>
-        <img
-        className="certified-photo absolute"
-        src={"/images/iso-icons.svg"}
-        alt="All certificated ISO CE TUV IP65 EMC ROHS"/>
-
-        <ul className="list flexbox">
-          <li className="list-horizontal">
-            <h4 className="header-list">Solux<br/>company facts</h4>
-            <h3 className="header-value">10+</h3>
-            <p className="text-list">10 years in the Solar<br/>Lighting as a pure player</p>
-          </li>
-          <li className="list-horizontal">
-            <h4 className="header-list">Installations<br/><br/></h4>
-            <h3 className="header-value">500K +</h3>
-            <p className="text-list">Installation realised in +73<br/>countries</p>
-          </li>
-          <li className="list-horizontal">
-            <h4 className="header-list">Solux main<br/>Manufacture</h4>
-            <h3 className="header-value">9000m2</h3>
-            <p className="text-list">600 m2 dedicated Testing<br/>Lab</p>
-          </li>
-          <li className="list-horizontal">
-            <h4 className="header-list">Pattern designs<br/>& co</h4>
-            <h3 className="header-value">32</h3>
-            <p className="text-list">We protect & develop our<br/>technology constantly</p>
-          </li>
-          <li className="list-horizontal">
-            <h4 className="header-list">Dedicated<br/>people</h4>
-            <h3 className="header-value">8+</h3>
-            <p className="text-list">Engineers experts in light & solar<br/>lighting</p>
-          </li>
-        </ul>
       </div>
 
-      <div className="middle-banner relative">
-        <img
-          className="middle-banner-bg"
-          src={"/images/middle-banner-bg.jpg"}
-          alt=""/>
-        <div className="middle-banner-header absolute text-white flex items-center">
+      <div className="grid xs:grid-cols-1 md:grid-cols-5 grid-cols-5 xs:divide-y md:divide-x divide-black xs:border-t md:divide-y-0 xs:border-t-black">
+        {[
+          {
+            title: "Solux company fact",
+            amount: "10+",
+            content: "10 years in the Solar Lighting as a pure player",
+          },
+          {
+            title: "Installations",
+            amount: "500K+",
+            content: "Installation realised in +73 countries",
+          },
+          {
+            title: "Solux main Manufacture",
+            amount: "9000m2",
+            content: "600 m2 dedicated Testing Lab",
+          },
+          {
+            title: "Pattern designs & co",
+            amount: "32",
+            content: "We protect & develop our technology constantly",
+          },
+          {
+            title: "Dedicated people",
+            amount: "8+",
+            content: "Engineers experts in light & solar lighting",
+          },
+        ].map((x) => (
+          <div className="flex flex-col p-4 gap-5">
+            <span>{x.title}</span>
+            <span>{x.amount}</span>
+            <span>{x.content}</span>
+          </div>
+        ))}
+      </div>
+      {/* <div className="middle-banner">
+        <div className="middle-banner-header absolute text-white">
           A solution for every projects
         </div>
         <img
-          className="middle-banner-ic absolute flex items-center"
+          className="middle-banner-ic absolute"
           src={"/images/middle-banner-icon.svg"}
-          alt=""/>
-        <div className="middle-banner-desc absolute text-white flex items-center">
-          Thanks to it's wide range of products offering all kind of solar lighting<br/>
+          alt=""
+        />
+        <div className="middle-banner-desc absolute text-white">
+          Thanks to it's wide range of products offering all kind of solar
+          lighting
+          <br />
           possibilities for your project
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

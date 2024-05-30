@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/solux-fe/static/css/main.e1184dae.css",
+    "main.js": "/solux-fe/static/js/main.a3fd5190.js",
+    "static/js/453.ab0b18f4.chunk.js": "/solux-fe/static/js/453.ab0b18f4.chunk.js",
+    "static/media/Armin Grotesk Regular.otf": "/solux-fe/static/media/Armin Grotesk Regular.8ba2100fa8eb6e44034c.otf",
+    "static/media/AkzidenzGrotesk-LightExtended.otf": "/solux-fe/static/media/AkzidenzGrotesk-LightExtended.b29bef8ed347056de67e.otf",
+    "static/media/AkzidenzGrotesk-LightExtendedItalic.otf": "/solux-fe/static/media/AkzidenzGrotesk-LightExtendedItalic.147f73fb84db8ba85f50.otf",
+    "static/media/AkzidenzGrotesk-BoldExtendedItalic.otf": "/solux-fe/static/media/AkzidenzGrotesk-BoldExtendedItalic.5f6b337ac5f8e3102d8a.otf",
+    "static/media/AkzidenzGrotesk-BoldExtended.otf": "/solux-fe/static/media/AkzidenzGrotesk-BoldExtended.0856d681e7eb784c6a53.otf",
+    "index.html": "/solux-fe/index.html",
+    "main.e1184dae.css.map": "/solux-fe/static/css/main.e1184dae.css.map",
+    "main.a3fd5190.js.map": "/solux-fe/static/js/main.a3fd5190.js.map",
+    "453.ab0b18f4.chunk.js.map": "/solux-fe/static/js/453.ab0b18f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1184dae.css",
+    "static/js/main.a3fd5190.js"
+  ]
+}

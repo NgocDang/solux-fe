@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/solux-fe/static/css/main.e1184dae.css",
-    "main.js": "/solux-fe/static/js/main.11068f47.js",
+    "main.js": "/solux-fe/static/js/main.5d056d9e.js",
     "static/js/453.ab0b18f4.chunk.js": "/solux-fe/static/js/453.ab0b18f4.chunk.js",
     "static/media/Armin Grotesk Regular.otf": "/solux-fe/static/media/Armin Grotesk Regular.8ba2100fa8eb6e44034c.otf",
     "static/media/AkzidenzGrotesk-LightExtended.otf": "/solux-fe/static/media/AkzidenzGrotesk-LightExtended.b29bef8ed347056de67e.otf",
@@ -10,11 +10,11 @@
     "static/media/AkzidenzGrotesk-BoldExtended.otf": "/solux-fe/static/media/AkzidenzGrotesk-BoldExtended.0856d681e7eb784c6a53.otf",
     "index.html": "/solux-fe/index.html",
     "main.e1184dae.css.map": "/solux-fe/static/css/main.e1184dae.css.map",
-    "main.11068f47.js.map": "/solux-fe/static/js/main.11068f47.js.map",
+    "main.5d056d9e.js.map": "/solux-fe/static/js/main.5d056d9e.js.map",
     "453.ab0b18f4.chunk.js.map": "/solux-fe/static/js/453.ab0b18f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1184dae.css",
-    "static/js/main.11068f47.js"
+    "static/js/main.5d056d9e.js"
   ]
 }

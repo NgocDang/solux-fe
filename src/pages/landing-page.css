@@ -2,38 +2,43 @@
   font-family: "AG";
 }
 
-.content{
-  font-family: "LightEx"
-}
-
-.heading-introduction{
+.content {
   font-family: "LightEx";
 }
 
-.introduction-description{
+.heading-introduction {
+  font-family: "LightEx";
+}
+
+.introduction-description {
   font-family: "AG";
 }
 
-.certified{
+.certified {
   font-family: "LightEx";
 }
 
-.header-list{
+.header-list {
   font-family: "LightEx";
 }
 
-.header-value .text-list{
-  font-family: "AG";  
+.header-value .text-list {
+  font-family: "AG";
 }
 
-.middle-banner-header{
-  font-family: "LightEx";  
+.middle-banner-header {
+  font-family: "LightEx";
 }
 
-.middle-banner-desc{
-  font-family: "AG";  
+.middle-banner-desc {
+  font-family: "AG";
 }
 
+.email-btn {
+  background-color: rgba(162, 162, 162, 0.5);
+  bottom: 5%;
+  right: 0%;
+}
 
 @media (min-width: 320px) {
   .content {
@@ -62,13 +67,6 @@
     left: 6%;
   }
 
-  .email-btn {
-    width: 30px;
-    height: auto;
-    bottom: 5%;
-    right: 0%;
-  }
-
   .introduction_img {
     width: 135px;
     height: auto;
@@ -76,8 +74,7 @@
     left: 4%;
   }
 
-  .heading-introduction 
-  {
+  .heading-introduction {
     font-size: 9px;
     top: 10%;
     left: 50%;
@@ -96,13 +93,13 @@
     left: 50%;
   }
 
-  .certified-photo{
+  .certified-photo {
     width: 140px;
     top: 72%;
     left: 50%;
   }
 
-  .list-horizontal{
+  .list-horizontal {
     border-left: 0.05px solid black;
     border-right: 0.05px solid black;
     border-top: 1px solid black;
@@ -112,35 +109,34 @@
     list-style-type: none;
   }
 
-  .header-list{
+  .header-list {
     font-size: 5px;
-  } 
+  }
 
-  .header-value{
+  .header-value {
     padding-top: 10px;
     font-size: 7px;
   }
 
-  .text-list{
+  .text-list {
     padding-top: 10px;
     font-size: 4.63px;
   }
 
-  .middle-banner-header{
+  .middle-banner-header {
     text-align: center;
     top: 50%;
     left: 30%;
     font-size: 9px;
   }
 
-  .middle-banner-ic
-  {
+  .middle-banner-ic {
     height: 16%;
     top: 58 %;
     left: 50%;
   }
-  
-  .middle-banner-desc{
+
+  .middle-banner-desc {
     text-align: center;
     top: 75%;
     left: 16%;
@@ -176,13 +172,6 @@
     left: 6%;
   }
 
-  .email-btn {
-    width: 80px;
-    height: auto;
-    bottom: 5%;
-    right: 0%;
-  }
-
   .introduction_img {
     width: 300px;
     height: auto;
@@ -190,8 +179,7 @@
     left: 5%;
   }
 
-  .heading-introduction 
-  {
+  .heading-introduction {
     font-size: 19px;
     top: 17%;
     left: 50%;
@@ -210,13 +198,13 @@
     left: 50%;
   }
 
-  .certified-photo{
+  .certified-photo {
     width: 250px;
     top: 77%;
     left: 50%;
   }
 
-  .list-horizontal{
+  .list-horizontal {
     border-left: 0.5px solid black;
     border-right: 0.5px solid black;
     border-top: 2px solid black;
@@ -226,35 +214,34 @@
     list-style-type: none;
   }
 
-  .header-list{
+  .header-list {
     font-size: 12px;
-  } 
+  }
 
-  .header-value{
+  .header-value {
     padding-top: 20px;
     font-size: 19px;
   }
 
-  .text-list{
+  .text-list {
     padding-top: 20px;
     font-size: 11px;
   }
 
-  .middle-banner-header{
+  .middle-banner-header {
     text-align: center;
     top: 50%;
     left: 33%;
     font-size: 19px;
   }
 
-  .middle-banner-ic
-  {
+  .middle-banner-ic {
     scale: 50%;
     top: 53%;
     left: 50%;
   }
-  
-  .middle-banner-desc{
+
+  .middle-banner-desc {
     text-align: center;
     top: 75%;
     left: 21%;
@@ -290,13 +277,6 @@
     left: 6%;
   }
 
-  .email-btn {
-    width: 80px;
-    height: auto;
-    bottom: 5%;
-    right: 0%;
-  }
-
   .introduction_img {
     width: 350px;
     height: auto;
@@ -304,8 +284,7 @@
     left: 8%;
   }
 
-  .heading-introduction 
-  {
+  .heading-introduction {
     font-size: 20px;
     top: 19%;
     left: 49%;
@@ -324,13 +303,13 @@
     left: 49%;
   }
 
-  .certified-photo{
+  .certified-photo {
     width: 30%;
     top: 70%;
     left: 49%;
-  } 
+  }
 
-  .list-horizontal{
+  .list-horizontal {
     border-left: 0.5px solid black;
     border-right: 0.5px solid black;
     border-top: 2px solid black;
@@ -340,35 +319,34 @@
     list-style-type: none;
   }
 
-  .header-list{
+  .header-list {
     font-size: 17px;
-  } 
+  }
 
-  .header-value{
+  .header-value {
     padding-top: 20px;
     font-size: 25px;
   }
 
-  .text-list{
+  .text-list {
     padding-top: 20px;
     font-size: 15px;
   }
 
-  .middle-banner-header{
+  .middle-banner-header {
     text-align: center;
     top: 50%;
     left: 33%;
     font-size: 25px;
   }
 
-  .middle-banner-ic
-  {
+  .middle-banner-ic {
     scale: 50%;
     top: 57%;
     left: 50%;
   }
-  
-  .middle-banner-desc{
+
+  .middle-banner-desc {
     text-align: center;
     top: 75%;
     left: 21%;
@@ -402,11 +380,6 @@
     left: 6%;
   }
 
-  .email-btn {
-    bottom: 5%;
-    right: 0%;
-  }
-
   .introduction_img {
     width: 40%;
     height: auto;
@@ -414,8 +387,7 @@
     left: 5%;
   }
 
-  .heading-introduction 
-  {
+  .heading-introduction {
     font-size: 39px;
     top: 17%;
     left: 50%;
@@ -435,13 +407,13 @@
     left: 50%;
   }
 
-  .certified-photo{
+  .certified-photo {
     width: 30%;
     top: 77%;
     left: 50%;
   }
 
-  .list-horizontal{
+  .list-horizontal {
     border-left: 0.5px solid black;
     border-right: 0.5px solid black;
     border-top: 2px solid black;
@@ -451,34 +423,33 @@
     list-style-type: none;
   }
 
-  .header-list{
+  .header-list {
     font-size: 25px;
   }
 
-  .header-value{
+  .header-value {
     padding-top: 30px;
     font-size: 40px;
   }
 
-  .text-list{
+  .text-list {
     padding-top: 40px;
     font-size: 21px;
   }
 
-  .middle-banner-header{
+  .middle-banner-header {
     text-align: center;
     top: 55%;
     left: 35%;
     font-size: 41px;
   }
 
-  .middle-banner-ic
-  {
+  .middle-banner-ic {
     top: 65%;
     left: 50%;
   }
-  
-  .middle-banner-desc{
+
+  .middle-banner-desc {
     text-align: center;
     top: 80%;
     left: 30%;

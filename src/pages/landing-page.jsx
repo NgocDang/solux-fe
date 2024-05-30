@@ -37,17 +37,17 @@ export const LandingPage = () => {
         </button>
       </div>
 
-      <div className="xs:flex xs:flex-col xs:p-10 xs:pb-12 sm:p-20 sm:pb-24 xs:gap-2 md:px-32 md:pt-20 md:pb-32 md:gap-8 lg:flex-row lg:gap-24 2xl:gap-32">
+      <div className="xs:flex xs:flex-col xs:p-5 xs:pb-12 xs:gap-2 md:flex md:items-center md:flex-col md:pt-20 md:pb-20 md:gap-8 lg:flex-row lg:items-start lg:px-12 lg:gap-2 2xl:gap-32">
         <img
-          className="xs:grow xs:w-full md:grow-0 lg:w-1/2 xl:shrink"
+          className="xs:grow xs:px-3 xs:w-full md:w-3/4 lg:w-1/2 lg:pt-8 xl:shrink"
           src={"/images/photo-intro.png"}
           alt="Introduction Solux lighting product"
         />
-        <div className="grow flex justify-between flex-col xs:gap-5 md:gap-10">
-          <span className="heading-introduction xs:text-xl lg:text-4xl">
-            We manufacture light solutions respecful of our environment
+        <div className="grow flex justify-between flex-col xs:gap-5 xs:px-3 md:px-28 md:gap-6 lg:px-0 lg:pl-10 xl:pt-4">
+          <span className="heading-introduction xs:text-xl xs:pt-5 md:leading-8 lg:text-4xl">
+            We manufacture light solutions<br/>respecful of our environment
           </span>
-          <div className="flex flex-col gap-4 xs:text-xs lg:text-xl lg:w-4/5">
+          <div className="introduction-description flex text-left flex-col gap-4 xs:text-xs md:w-full md:leading-8 lg:text-xl lg:w-5/6">
             <span>
               For 10 years, and over 500 000 installations in 73 countries,
               Solux sino-european manjor manufacturer, has been designing and
@@ -60,12 +60,12 @@ export const LandingPage = () => {
               lighting solution to preserve our planet.
             </span>
           </div>
-          <div className="flex flex-col xs:gap-2 md:gap-3 lg:gap-5">
-            <span className="xs:text-xs md:text-xl lg:text-2xl font-bold">
+          <div className="flex flex-col xs:gap-2 md:gap-3 lg:gap-1">
+            <span className="certified xs:text-xs md:text-xl lg:pt-2 lg:text-2xl xl:pt-6">
               Certified by
             </span>
             <img
-              className="md:w-2/3 lg:w-full xl:w-2/3 2xl:w-1/2"
+              className="xs:pt-2 md:w-5/6 lg:w-3/4 xl:w-4/5 2xl:w-1/2 xl:pt-8"
               src={"/images/iso-icons.svg"}
               alt="All certificated ISO CE TUV IP65 EMC ROHS"
             />
@@ -73,7 +73,7 @@ export const LandingPage = () => {
         </div>
       </div>
 
-      <div className="grid xs:grid-cols-1 md:grid-cols-5 grid-cols-5 xs:divide-y md:divide-x divide-black xs:border-t md:divide-y-0 xs:border-t-black">
+      <div className="grid xs:grid-cols-1 xs:text-center md:text-left md:grid-cols-5 grid-cols-5 xs:divide-y md:divide-x divide-black xs:border-t md:divide-y-0 xs:border-t-black">
         {[
           {
             title: "Solux company fact",
@@ -102,28 +102,12 @@ export const LandingPage = () => {
           },
         ].map((x) => (
           <div className="flex flex-col p-4 gap-5">
-            <span>{x.title}</span>
-            <span>{x.amount}</span>
-            <span>{x.content}</span>
+            <span className="title">{x.title}</span>
+            <span className="amount">{x.amount}</span>
+            <span className="content1">{x.content}</span>
           </div>
         ))}
       </div>
-      {/* <div className="middle-banner">
-        <div className="middle-banner-header absolute text-white">
-          A solution for every projects
-        </div>
-        <img
-          className="middle-banner-ic absolute"
-          src={"/images/middle-banner-icon.svg"}
-          alt=""
-        />
-        <div className="middle-banner-desc absolute text-white">
-          Thanks to it's wide range of products offering all kind of solar
-          lighting
-          <br />
-          possibilities for your project
-        </div>
-      </div> */}
     </>
   );
 };
